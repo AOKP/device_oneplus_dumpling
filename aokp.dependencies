@@ -7,15 +7,9 @@
   },
   {
    "remote": "github",
-   "repository":  "timocapa/op5",
+   "repository":  "LineageOS/android_kernel_oneplus_msm8998",
    "target_path": "kernel/oneplus/msm8998",
-   "branch":      "8.1.0-unified"
-  },
-
-  {
-   "remote": "github",
-   "repository":  "OnePlus5T-LAB/android_prebuilts_clang_host_linux-x86_clang-4667116",
-   "target_path": "prebuilts/clang/host/linux-x86/clang-4667116",
-   "branch":      "8.1"
+   "branch":      "lineage-15.1"
   }
+
 ]
