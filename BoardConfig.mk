@@ -27,6 +27,11 @@
 
 DEVICE_PATH := device/oneplus/dumpling
 
+# Kernel
+TARGET_KERNEL_SOURCE := kernel/oneplus/msm8998
+TARGET_KERNEL_CONFIG := rattlesnake_oneplus5_defconfig
+TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
+
 # Assertions
 TARGET_BOARD_INFO_FILE ?= $(DEVICE_PATH)/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := dumpling,OnePlus5T,oneplus5t
